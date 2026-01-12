@@ -1,0 +1,69 @@
+[
+  {
+    "ContainingType": "VideoGames.Api.Controllers.VideoGamesController",
+    "Method": "GetAll",
+    "RelativePath": "api/VideoGames",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[VideoGames.Api.Models.VideoGame, VideoGames.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "VideoGames.Api.Controllers.VideoGamesController",
+    "Method": "GetById",
+    "RelativePath": "api/VideoGames/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "VideoGames.Api.Models.VideoGame",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "VideoGames.Api.Controllers.VideoGamesController",
+    "Method": "Update",
+    "RelativePath": "api/VideoGames/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "updated",
+        "Type": "VideoGames.Api.Models.VideoGame",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
