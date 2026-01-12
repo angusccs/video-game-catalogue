@@ -65,5 +65,21 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VideoGames.Api.Controllers.VideoGamesController",
+    "Method": "Delete",
+    "RelativePath": "api/VideoGames/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   }
 ]

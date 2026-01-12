@@ -26,4 +26,9 @@ export class GamesApiService {
   update(game: Game): Observable<void> {
     return this.http.put<void>(`${this.baseUrl}/${game.id}`, game);
   }
+
+  delete(id: number) {
+  return this.http.delete<void>(`${this.baseUrl}/${id}`);
+}
+
 }

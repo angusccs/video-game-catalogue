@@ -51,4 +51,16 @@ public class VideoGamesController : ControllerBase
         await _db.SaveChangesAsync();
         return NoContent();
     }
+
+    [HttpDelete("{id:int}")]
+    public async Task<IActionResult> Delete(int id)
+    {
+        var existing = await _db.VideoGames.FindAsync(id);
+        if (existing is null) return NotFound();
+
+        _db.VideoGames.Remove(existing);
+        await _db.SaveChangesAsync();
+        return NoContent();
+    }
+
 }

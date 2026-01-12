@@ -2,6 +2,8 @@ import { Component, inject } from '@angular/core';
 import { NgFor, AsyncPipe } from '@angular/common';
 import { RouterLink } from '@angular/router';
 import { GamesApiService } from './games-api.service';
+import { Router } from '@angular/router';
+
 
 @Component({
   standalone: true,
@@ -23,6 +25,10 @@ import { GamesApiService } from './games-api.service';
             <td>{{ g.title }}</td>
             <td>{{ g.platform || '' }}</td>
             <td>
+             <a class="btn btn-outline-primary btn-sm"
+              (click)="deleteGame(g.id)">Delete</a>
+            </td>
+            <td>
               <a class="btn btn-outline-primary btn-sm"
                  [routerLink]="['/games', g.id, 'edit']">Edit</a>
             </td>
@@ -32,7 +38,15 @@ import { GamesApiService } from './games-api.service';
     </div>
   `
 })
+
 export class GamesListPage {
   private api = inject(GamesApiService);
   games$ = this.api.getAll();
+constructor(private router: Router) {}
+deleteGame(id: number) {
+  this.api.delete(id).subscribe(() => {
+    window.location.reload();
+  });
+}
+
 }
