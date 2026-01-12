@@ -3620,23 +3620,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\achan\\.nuget\\packages\\": {},
+    "C:\\Users\\angus\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\achan\\Documents\\VideoGamesCatalogue\\backend\\VideoGames.Api\\VideoGames.Api.csproj",
+      "projectUniqueName": "C:\\video-game-catalogue\\backend\\VideoGames.Api\\VideoGames.Api.csproj",
       "projectName": "VideoGames.Api",
-      "projectPath": "C:\\Users\\achan\\Documents\\VideoGamesCatalogue\\backend\\VideoGames.Api\\VideoGames.Api.csproj",
-      "packagesPath": "C:\\Users\\achan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\achan\\Documents\\VideoGamesCatalogue\\backend\\VideoGames.Api\\obj\\",
+      "projectPath": "C:\\video-game-catalogue\\backend\\VideoGames.Api\\VideoGames.Api.csproj",
+      "packagesPath": "C:\\Users\\angus\\.nuget\\packages\\",
+      "outputPath": "C:\\video-game-catalogue\\backend\\VideoGames.Api\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\achan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\angus\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
