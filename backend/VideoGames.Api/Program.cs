@@ -22,13 +22,13 @@ builder.Services.AddCors(options =>
 
 var app = builder.Build();
 
-// Use CORS policy (safe to keep for this assignment)
+// Use CORS policy 
 app.UseCors("DevCors");
 
 // Map controller routes
 app.MapControllers();
 
-// Create database + seed sample data on startup (Code First)
+// Create database + seed sample data on startup
 using (var scope = app.Services.CreateScope())
 {
     var db = scope.ServiceProvider.GetRequiredService<AppDbContext>();

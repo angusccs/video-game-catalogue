@@ -41,7 +41,6 @@ public class VideoGamesController : ControllerBase
         var existing = await _db.VideoGames.FindAsync(id);
         if (existing is null) return NotFound();
 
-        // Minimal validation
         if (string.IsNullOrWhiteSpace(updated.Title)) return BadRequest("Title is required.");
         if (string.IsNullOrWhiteSpace(updated.Platform)) return BadRequest("Platform is required.");
 
