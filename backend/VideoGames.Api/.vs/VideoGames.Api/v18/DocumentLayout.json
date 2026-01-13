@@ -3,8 +3,11 @@
   "WorkspaceRootPath": "C:\\video-game-catalogue\\backend\\VideoGames.Api\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{28F6B398-6047-2DA1-EFF1-187841BFF563}|VideoGames.Api.csproj|c:\\video-game-catalogue\\backend\\videogames.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{28F6B398-6047-2DA1-EFF1-187841BFF563}|VideoGames.Api.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E67E1118-2D96-4185-B1E8-5D8D69B9537C}|..\\VideoGames.Test\\VideoGames.Test.csproj|c:\\video-game-catalogue\\backend\\videogames.test\\videogamestests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28F6B398-6047-2DA1-EFF1-187841BFF563}|VideoGames.Api.csproj|c:\\video-game-catalogue\\backend\\videogames.api\\controllers\\videogamescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28F6B398-6047-2DA1-EFF1-187841BFF563}|VideoGames.Api.csproj|solutionrelative:controllers\\videogamescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{28F6B398-6047-2DA1-EFF1-187841BFF563}|VideoGames.Api.csproj|c:\\video-game-catalogue\\backend\\videogames.api\\models\\videogame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -13,10 +16,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{28F6B398-6047-2DA1-EFF1-187841BFF563}|VideoGames.Api.csproj|c:\\video-game-catalogue\\backend\\videogames.api\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{28F6B398-6047-2DA1-EFF1-187841BFF563}|VideoGames.Api.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{28F6B398-6047-2DA1-EFF1-187841BFF563}|VideoGames.Api.csproj|c:\\video-game-catalogue\\backend\\videogames.api\\controllers\\videogamescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{28F6B398-6047-2DA1-EFF1-187841BFF563}|VideoGames.Api.csproj|solutionrelative:controllers\\videogamescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,11 +25,20 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "VideoGamesController.cs",
+              "DocumentMoniker": "C:\\video-game-catalogue\\backend\\VideoGames.Api\\Controllers\\VideoGamesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\VideoGamesController.cs",
+              "ToolTip": "C:\\video-game-catalogue\\backend\\VideoGames.Api\\Controllers\\VideoGamesController.cs",
+              "RelativeToolTip": "Controllers\\VideoGamesController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAkwCAAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-12T23:40:08.533Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
@@ -42,33 +50,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "VideoGamesController.cs",
-              "DocumentMoniker": "C:\\video-game-catalogue\\backend\\VideoGames.Api\\Controllers\\VideoGamesController.cs",
-              "RelativeDocumentMoniker": "Controllers\\VideoGamesController.cs",
-              "ToolTip": "C:\\video-game-catalogue\\backend\\VideoGames.Api\\Controllers\\VideoGamesController.cs",
-              "RelativeToolTip": "Controllers\\VideoGamesController.cs",
-              "ViewState": "AgIAAC8AAAAAAAAAAAAIwD0AAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-09T22:16:58.915Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\video-game-catalogue\\backend\\VideoGames.Api\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\video-game-catalogue\\backend\\VideoGames.Api\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAAAAYAAAAgAAAAAAAAAA==",
+              "Title": "VideoGamesTests.cs",
+              "DocumentMoniker": "C:\\video-game-catalogue\\backend\\VideoGames.Test\\VideoGamesTests.cs",
+              "RelativeDocumentMoniker": "..\\VideoGames.Test\\VideoGamesTests.cs",
+              "ToolTip": "C:\\video-game-catalogue\\backend\\VideoGames.Test\\VideoGamesTests.cs",
+              "RelativeToolTip": "..\\VideoGames.Test\\VideoGamesTests.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAowFAAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-09T22:14:56.793Z",
+              "WhenOpened": "2026-01-12T23:16:48.217Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\video-game-catalogue\\backend\\VideoGames.Api\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
@@ -81,7 +76,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "VideoGame.cs",
               "DocumentMoniker": "C:\\video-game-catalogue\\backend\\VideoGames.Api\\Models\\VideoGame.cs",
               "RelativeDocumentMoniker": "Models\\VideoGame.cs",
