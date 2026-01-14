@@ -10,7 +10,7 @@ export interface Game {
 
 @Injectable({ providedIn: 'root' })
 export class GamesApiService {
-  // Adjust port to match your backend
+  // Adjust port to match backend
   private readonly baseUrl = 'http://localhost:5240/api/videogames';
 
   constructor(private http: HttpClient) {}

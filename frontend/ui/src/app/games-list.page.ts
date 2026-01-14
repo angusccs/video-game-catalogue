@@ -42,7 +42,7 @@ import { Router } from '@angular/router';
 export class GamesListPage {
   private api = inject(GamesApiService);
   games$ = this.api.getAll();
-constructor(private router: Router) {}
+
 deleteGame(id: number) {
   this.api.delete(id).subscribe(() => {
     window.location.reload();
