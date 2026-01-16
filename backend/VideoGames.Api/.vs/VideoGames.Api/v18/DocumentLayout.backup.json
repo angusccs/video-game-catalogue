@@ -62,8 +62,7 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAABkAAAAAAAAAAAAkwCUAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-12T23:45:13.951Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-12T23:45:13.951Z"
             },
             {
               "$type": "Document",
@@ -75,8 +74,7 @@
               "RelativeToolTip": "..\\VideoGames.Test\\VideoGamesTests.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAE8AAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-12T23:16:48.217Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-12T23:16:48.217Z"
             },
             {
               "$type": "Document",
@@ -88,8 +86,7 @@
               "RelativeToolTip": "Data\\AppDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-09T22:13:27.151Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-09T22:13:27.151Z"
             },
             {
               "$type": "Document",
@@ -101,8 +98,7 @@
               "RelativeToolTip": "Models\\VideoGame.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-09T22:12:05.278Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-09T22:12:05.278Z"
             }
           ]
         }
